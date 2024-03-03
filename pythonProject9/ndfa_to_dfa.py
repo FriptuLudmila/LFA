@@ -78,6 +78,7 @@ dfa.from_ndfa(ndfa)
 
 
 dfa.draw('dfa_diagram')
+#print transitions
 
 print("DFA States:", dfa.states)
 print("DFA Transitions:", dfa.transitions)

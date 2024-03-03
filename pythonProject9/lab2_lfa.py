@@ -37,7 +37,7 @@ class FiniteAutomaton:
 fa = FiniteAutomaton()
 grammar = fa.to_regular_grammar()
 
-
+#print states
 for state, rules in grammar.items():
     if rules:  # Only print the state if it has at least one rule
         print(f"{state} --> {'|'.join(rules)}")
